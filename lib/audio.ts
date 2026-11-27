@@ -170,12 +170,6 @@ class SoundEngine {
     }
   }
 
-  /**
-   * Optional atmosphere modulation
-   */
-  public updateAtmosphere(_progress: number) {
-    // Retained for API compatibility
-  }
 }
 
 export const soundEngine = typeof window !== "undefined" ? new SoundEngine() : null;

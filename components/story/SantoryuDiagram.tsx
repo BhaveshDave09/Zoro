@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { HandDrawnArrow, HankoStamp, WashiTape, SumiSplatter } from "./HandDrawnElements";
+import { HankoStamp, WashiTape } from "./HandDrawnElements";
 import { soundEngine } from "@/lib/audio";
 
 interface SwordDetail {

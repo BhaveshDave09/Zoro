@@ -61,7 +61,6 @@ export default function ScrollExperience() {
       if (Math.abs(v) > 14) {
         soundEngine.triggerBladeRing(Math.min(1, Math.abs(v) / 25));
       }
-      soundEngine.updateAtmosphere(p);
     }
 
     // Reset velocity when scroll stops

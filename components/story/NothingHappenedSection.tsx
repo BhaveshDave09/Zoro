@@ -1,14 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { HankoStamp, SumiSplatter, WashiTape } from "./HandDrawnElements";
 import { soundEngine } from "@/lib/audio";
 
 export default function NothingHappenedSection() {
-  const [hasInteracted, setHasInteracted] = useState(false);
-
   const handleClick = () => {
-    setHasInteracted(true);
     soundEngine?.triggerBladeRing(0.9);
   };
 
